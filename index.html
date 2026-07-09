@@ -132,29 +132,71 @@
     <header id="main-header"
         class="fixed top-0 w-full text-white z-50 px-8 transition-all duration-300 border-b border-transparent">
 
-        <!-- Top Utility Bar 
-        <div class="w-full border-b border-white/10 hidden md:block transition-all duration-300" id="top-bar">
+        <!-- Top Utility Bar -->
+        <div class="w-full border-b border-white/10 hidden lg:block transition-all duration-300" id="top-bar">
             <div class="container mx-auto px-8 py-2 flex justify-between items-center text-xs text-gray-300">
-                <div class="flex items-center gap-4">
-                    <a href="mailto:contacto@remact.com" class="hover:text-remact-yellow flex items-center gap-2 transition-colors">
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                        contacto@remact.com
+                <div class="flex items-center gap-6">
+                    <span class="flex items-center gap-2">
+                        <span class="text-base"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="w-5 h-5"
+                                viewBox="0 0 256 256" xml:space="preserve">
+                                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                    <path d="M 45 0 C 20.147 0 0 20.147 0 45 h 45 V 0 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,57,166); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path d="M 45 0 c -0.001 0 -0.001 0 -0.002 0 v 45 H 90 C 90 20.147 69.853 0 45 0 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(243,244,245); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path d="M 90 45 H 0 c 0 24.853 20.147 45 45 45 S 90 69.853 90 45 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(213,43,30); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path
+                                        d="M 32.5 35.699 l -6.97 -5.227 l -6.936 5.279 l 2.579 -8.578 l -6.923 -5.297 l 8.565 -0.074 l 2.657 -8.552 l 2.714 8.532 l 8.565 0.011 l -6.888 5.347 L 32.5 35.699 L 32.5 35.699 z"
+                                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(243,244,245); fill-rule: nonzero; opacity: 1;"
+                                        transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                </g>
+                            </svg></span> Santiago, Chile
+                    </span>
+                    <a href="mailto:remactservicios@gmail.com
+" class="hover:text-remact-yellow flex items-center gap-2 transition-colors">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                        remactservicios@gmail.com
+
+                    </a>
+                    <a href="https://wa.me/56965890179" target="_blank" rel="noopener noreferrer"
+                        class="hover:text-remact-yellow flex items-center gap-2 transition-colors">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                            </path>
+                        </svg>
+                        +56 9 6589 0179
                     </a>
                 </div>
                 <div class="flex items-center gap-4">
                     <span class="mr-1">Síguenos:</span>
-                    <a href="#" class="hover:text-remact-yellow transition-colors" aria-label="Facebook">
-                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+                    <a href="https://www.instagram.com/remact2024" target="_blank" rel="noopener noreferrer"
+                        class="hover:text-remact-yellow transition-colors" aria-label="Instagram">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg>
                     </a>
-                    <a href="https://www.instagram.com/remact2024" target="_blank" rel="noopener noreferrer" class="hover:text-remact-yellow transition-colors" aria-label="Instagram">
-                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                    </a>
-                    <a href="https://www.tiktok.com/@remactt" target="_blank" rel="noopener noreferrer" class="hover:text-remact-yellow transition-colors" aria-label="TikTok">
-                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 15.68a6.34 6.34 0 0012.67-1.12V8.29a8.31 8.31 0 004.13 1.15V6.01a5.02 5.02 0 01-2.21-.32z"/></svg>
+                    <a href="https://www.tiktok.com/@remactt" target="_blank" rel="noopener noreferrer"
+                        class="hover:text-remact-yellow transition-colors" aria-label="TikTok">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 15.68a6.34 6.34 0 0012.67-1.12V8.29a8.31 8.31 0 004.13 1.15V6.01a5.02 5.02 0 01-2.21-.32z" />
+                        </svg>
                     </a>
                 </div>
             </div>
-        </div>-->
+        </div>
 
         <div id="header-container"
             class="container mx-auto px-8 py-4 flex justify-between items-center transition-all duration-300">
@@ -166,11 +208,11 @@
             </div>
 
             <nav class="hidden md:flex gap-8 text-sm font-medium">
-                <a href="#inicio" class="text-remact-yellow hover:text-white transition-colors">INICIO</a>
+                <a href="#inicio" class="hover:text-remact-yellow transition-colors">INICIO</a>
                 <a href="#servicios" class="hover:text-remact-yellow transition-colors">SERVICIOS</a>
                 <a href="#why-choose-us" class="hover:text-remact-yellow transition-colors">NOSOTROS</a>
                 <a href="#trabajos" class="hover:text-remact-yellow transition-colors">PROYECTOS</a>
-                <a href="#testimonios" class="text-remact-yellow hover:text-white transition-colors">TESTIMONIOS</a>
+                <a href="#testimonios" class="hover:text-remact-yellow transition-colors">TESTIMONIOS</a>
                 <a href="#contacto" class="hover:text-remact-yellow transition-colors">CONTACTO</a>
             </nav>
 
@@ -199,12 +241,75 @@
             <a href="#trabajos" class="text-white hover:text-remact-yellow font-medium mobile-link">PROYECTOS</a>
             <a href="#testimonios" class="text-white hover:text-remact-yellow font-medium mobile-link">TESTIMONIOS</a>
             <a href="#contacto" class="text-white hover:text-remact-yellow font-medium mobile-link">CONTACTO</a>
+
+            <!-- Separador -->
+            <div class="w-1/2 border-t border-white/20 my-2"></div>
+
+            <!-- Bloque de Contacto Móvil -->
+            <div class="flex flex-col items-center gap-4 text-sm text-gray-300 pb-4">
+                <span class="flex items-center gap-2">
+                    <span class="text-base"><svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="w-5 h-5"
+                            viewBox="0 0 256 256" xml:space="preserve">
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                <path d="M 45 0 C 20.147 0 0 20.147 0 45 h 45 V 0 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,57,166); fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 45 0 c -0.001 0 -0.001 0 -0.002 0 v 45 H 90 C 90 20.147 69.853 0 45 0 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(243,244,245); fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 90 45 H 0 c 0 24.853 20.147 45 45 45 S 90 69.853 90 45 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(213,43,30); fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path
+                                    d="M 32.5 35.699 l -6.97 -5.227 l -6.936 5.279 l 2.579 -8.578 l -6.923 -5.297 l 8.565 -0.074 l 2.657 -8.552 l 2.714 8.532 l 8.565 0.011 l -6.888 5.347 L 32.5 35.699 L 32.5 35.699 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(243,244,245); fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            </g>
+                        </svg></span> Santiago, Chile
+                </span>
+                <a href="mailto:remactservicios@gmail.com"
+                    class="hover:text-remact-yellow flex items-center gap-2 transition-colors">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                    remactservicios@gmail.com
+                </a>
+                <a href="https://wa.me/56965890179" target="_blank" rel="noopener noreferrer"
+                    class="hover:text-remact-yellow flex items-center gap-2 transition-colors">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                        </path>
+                    </svg>
+                    +56 9 6589 0179
+                </a>
+                <div class="flex gap-6 mt-2 text-white">
+                    <a href="https://www.instagram.com/remact2024" target="_blank" rel="noopener noreferrer"
+                        class="hover:text-remact-yellow transition-colors" aria-label="Instagram">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@remactt" target="_blank" rel="noopener noreferrer"
+                        class="hover:text-remact-yellow transition-colors" aria-label="TikTok">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 15.68a6.34 6.34 0 0012.67-1.12V8.29a8.31 8.31 0 004.13 1.15V6.01a5.02 5.02 0 01-2.21-.32z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
 
     <main>
         <section id="inicio"
-            class="relative z-30 pt-32 pb-20 lg:pt-38 lg:pb-8 flex items-center justify-center min-h-[80vh] bg-cover bg-center bg-no-repeat"
+            class="relative z-30 pt-32 pb-20 lg:pt-44 lg:pb-8 flex items-center justify-center min-h-[80vh] bg-cover bg-center bg-no-repeat"
             style="background-image: url('/background-image.png');">
 
             <div class="absolute inset-0 bg-black/80 z-0"></div>

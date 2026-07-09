@@ -318,6 +318,28 @@ document.addEventListener("DOMContentLoaded", () => {
     videos.forEach(video => {
         video.playbackRate = 1.25;
     });
+
+    // 6. ScrollSpy para el menú de navegación
+    const spySections = document.querySelectorAll("section[id], div[id='servicios'], footer[id='contacto']");
+    const desktopNavLinks = document.querySelectorAll("nav a[href^='#']");
+
+    const scrollSpyObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const currentId = entry.target.getAttribute("id");
+                desktopNavLinks.forEach(link => {
+                    link.classList.remove("text-remact-yellow");
+                    if (link.getAttribute("href") === `#${currentId}`) {
+                        link.classList.add("text-remact-yellow");
+                    }
+                });
+            }
+        });
+    }, { threshold: 0.2, rootMargin: "-10% 0px -40% 0px" });
+
+    spySections.forEach(section => {
+        scrollSpyObserver.observe(section);
+    });
 });
 
 // 6. Filtrado de Proyectos
