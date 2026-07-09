@@ -107,3 +107,12 @@ html {
 .delay-500 {
     transition-delay: 500ms;
 }
+
+/* Evita que el delay afecte a los efectos hover de los botones */
+.delay-100:hover, 
+.delay-200:hover, 
+.delay-300:hover, 
+.delay-400:hover, 
+.delay-500:hover {
+    transition-delay: 0ms !important;
+}
